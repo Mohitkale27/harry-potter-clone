@@ -252,6 +252,8 @@ a{
   position: fixed;
   z-index: 3;
   width: 100%;
+  top: 0px;
+  transition: top 0.3s;
 }
 .nav-top {
   display: flex;
@@ -331,8 +333,9 @@ a{
 }
 .bottom-items {
   position: relative;
-/*   height: 30px; */
+  /* height: 30px; */
   cursor: pointer;
+  font-size: 13px;
 }
 .bottom-items:hover:after {
   content: "";
